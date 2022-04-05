@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./presupuesto.css">
+    <title>Treasure</title>
+</head>
+<body>
+
+    <div class="contenido">
+
+        <h1 class="titulo">Treasure</h1>
+
+        <div class="salario">
+            <label for="salarioMensual" id="salario">Salario mensual</label>
+            <input type="number" id="salarioMensual">
+        </div>
+
+        <h2>Porcentajes</h2>
+        
+        <div class="porcentaje">
+            <label for="ahorroMensual" id="ahorro">Ahorro</label>
+            <input type="number" id="ahorroMensual">
+        </div>
+        
+        <div class="porcentaje">
+            <label for="ahorroVehiculo" id="Vehiculo">Vehiculo</label>
+            <input type="number" id="ahorroVehiculo">
+        </div>
+
+        <div class="porcentaje">
+            <label for="ahorroHogar" id="hogar">Hogar</label>
+            <input type="number" id="ahorroHogar">
+        </div>
+
+        <div class="porcentaje">
+            <label for="ahorroEstudios" id="estudios">Estudios</label>
+            <input type="number" id="ahorroEstudios">
+        </div>
+
+        <div class="porcentaje">
+            <label for="ahorroComida" id="comida">Comida</label>
+            <input type="number" id="ahorroComida">
+        </div>
+
+        <button class="button" type="button" onclick="ahorroMensual()">Aceptar</button>
+    
+        <p id="textoPresupuesto1" class="textoPresupuesto"></p>
+        <p id="textoPresupuesto2" class="textoPresupuesto"></p>
+        <p id="textoPresupuesto3" class="textoPresupuesto"></p>
+        <p id="textoPresupuesto4" class="textoPresupuesto"></p>
+        <p id="textoPresupuesto5" class="textoPresupuesto"></p>
+
+        <p id="alerta" class="alerta"></p>
+
+    </div>
+
+    <script src="./presupuesto.js"></script>
+</body>
+</html>
